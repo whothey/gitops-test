@@ -23,7 +23,7 @@ spec:
         image: whothey/genv:1.0
         env:
           - name: PORT
-            value: 3000
+            value: "3000"
           - name: SECRET_ENV
             valueFrom:
               secretKeyRef:
