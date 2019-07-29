@@ -21,7 +21,7 @@ spec:
       containers:
       - name: genv
         image: whothey/genv:1.0
-        environment:
+        env:
           - name: PORT
             value: 3000
           - name: SECRET_ENV
